@@ -12,24 +12,12 @@
 
 /* Begin PBXFileReference section */
 		8E02D86A2E2A40B70079AD78 /* iNetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02D87B2E2A40D70079AD78 /* SwiftNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftNetworking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8E02D87C2E2A40D70079AD78 /* Exceptions for "iNetworkApp" folder in "iNetworkApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				SwiftNetworking,
-			);
-			target = 8E02D8692E2A40B70079AD78 /* iNetworkApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8E02D86C2E2A40B70079AD78 /* iNetworkApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8E02D87C2E2A40D70079AD78 /* Exceptions for "iNetworkApp" folder in "iNetworkApp" target */,
-			);
 			path = iNetworkApp;
 			sourceTree = "<group>";
 		};
@@ -50,6 +38,7 @@
 		8E02D8612E2A40B70079AD78 = {
 			isa = PBXGroup;
 			children = (
+				8E02D87B2E2A40D70079AD78 /* SwiftNetworking */,
 				8E02D86C2E2A40B70079AD78 /* iNetworkApp */,
 				8E02D87D2E2A40EE0079AD78 /* Frameworks */,
 				8E02D86B2E2A40B70079AD78 /* Products */,
